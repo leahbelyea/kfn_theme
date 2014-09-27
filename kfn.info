@@ -1,0 +1,8 @@
+name = KFN
+core = 7.x
+
+stylesheets[all][] = css/kfn.css
+
+regions[primary_nav] = Primary Navigation
+regions[secondary_nav] = Secondary Navigation
+regions[content] = Content

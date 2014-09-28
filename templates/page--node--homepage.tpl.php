@@ -21,12 +21,14 @@ drupal_add_js(drupal_get_path('theme', 'kfn') . '/js/home.js');
   <div id="main-feature">
     <div id="main-photo" class="flexslider">
       <ul class="slides">
-        <?php print render(field_view_field('node', $node, 'field_slider_photo')); ?>
+        <?php $field = field_view_field('node', $node, 'field_slider_photo'); ?>
+        <?php print render($field); ?>
       </ul>
     </div>
     <div id="main-text">
       <h2><?php print $title; ?></h2>
-      <?php print render(field_view_field('node', $node, 'field_about', array('label' => 'hidden'))); ?>
+      <?php $field = field_view_field('node', $node, 'field_about', array('label' => 'hidden')); ?>
+      <?php print render($field); ?>
     </div>
     <div class="clear"></div>                     
   </div>

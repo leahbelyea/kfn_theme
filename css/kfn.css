@@ -592,6 +592,10 @@ p.event-date {
 	background-size: cover !important;
 }
 
+.node-type-gallery #content {
+	font-size: 0;
+}
+
 p.alert {
 	color: #cc0000;
 	font-size: 30px;

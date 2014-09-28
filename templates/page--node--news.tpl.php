@@ -12,7 +12,7 @@
 </header>
 
 <div id="page-body" class="wrapper">       
-    <div id="content">
+    <div id="content" class="full">
       <?php print $messages; ?>
     	<?php print render($page['content']); ?>                       
     </div>

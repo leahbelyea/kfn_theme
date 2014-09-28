@@ -289,11 +289,11 @@ footer a:hover {
 }
 
 #content.full {
-	margin-left: 0;
+	width: auto;
+	display: block;
 }
 
 #content .links a{
-	color: #555555;
 	text-decoration: none;
 	font-weight: bold;
 }

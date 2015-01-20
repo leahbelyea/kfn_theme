@@ -8,7 +8,7 @@
 <?php print render($content['field_info']); ?>  
 <?php 
   $newsFilter = strtolower($title);
-  $newsFilter = str_replace("-", " ", $newsFilter)
+  $newsFilter = str_replace("-", " ", $newsFilter);
   print views_embed_view('department_news', 'default', $newsFilter); 
 ?>
 
